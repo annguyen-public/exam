@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.editProfileSchema = exports.updateLeaderboardSchema = exports.addScoreSchema = exports.quizIdSchema = exports.addQuizSchema = exports.loginSchema = exports.signupSchema = void 0;
+var signup_schema_1 = require("./signup-schema");
+Object.defineProperty(exports, "signupSchema", { enumerable: true, get: function () { return __importDefault(signup_schema_1).default; } });
+var log_in_schema_1 = require("./log-in-schema");
+Object.defineProperty(exports, "loginSchema", { enumerable: true, get: function () { return __importDefault(log_in_schema_1).default; } });
+var add_quiz_schema_1 = require("./add-quiz-schema");
+Object.defineProperty(exports, "addQuizSchema", { enumerable: true, get: function () { return __importDefault(add_quiz_schema_1).default; } });
+var quiz_id_schema_1 = require("./quiz-id-schema");
+Object.defineProperty(exports, "quizIdSchema", { enumerable: true, get: function () { return __importDefault(quiz_id_schema_1).default; } });
+var add_score_schema_1 = require("./add-score-schema");
+Object.defineProperty(exports, "addScoreSchema", { enumerable: true, get: function () { return __importDefault(add_score_schema_1).default; } });
+var update_leaderboard_schema_1 = require("./update-leaderboard-schema");
+Object.defineProperty(exports, "updateLeaderboardSchema", { enumerable: true, get: function () { return __importDefault(update_leaderboard_schema_1).default; } });
+var edit_user_profile_schema_1 = require("./edit-user-profile-schema");
+Object.defineProperty(exports, "editProfileSchema", { enumerable: true, get: function () { return __importDefault(edit_user_profile_schema_1).default; } });
